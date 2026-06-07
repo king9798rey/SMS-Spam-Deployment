@@ -40,7 +40,7 @@ if st.button("Predict"):
         # FastAPI endpoint
 
         url = (
-            "http://127.0.0.1:8000/predict"
+            "https://sms-spam-deployment.onrender.com/predict"
         )
 
         # Request body
